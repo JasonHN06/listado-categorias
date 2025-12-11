@@ -1,12 +1,12 @@
+import React from "react";
+import CategoriesList from "./components/CategoriesList";
 
-
-function App() {
-
+const App: React.FC = () => {
   return (
-    <>
-      
-    </>
-  )
-}
+    <div className="min-h-screen bg-gray-100">
+      <CategoriesList />
+    </div>
+  );
+};
 
-export default App
+export default App;
